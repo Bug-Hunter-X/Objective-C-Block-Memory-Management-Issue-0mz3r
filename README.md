@@ -1,0 +1,3 @@
+# Objective-C Block Memory Management Issue
+
+This repository demonstrates a common error in Objective-C related to memory management within blocks.  The `bug.m` file showcases the problem where objects passed into a block are not properly retained, leading to potential crashes or unexpected behavior if the objects are deallocated before the block completes its work.  The solution is provided in `bugSolution.m`, illustrating the correct way to manage object lifecycles in this scenario.
